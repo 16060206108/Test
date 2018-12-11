@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+
+  jackson:
+    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /sell
+wechat:
+  mpAppId: wx289609f70294356f
+  mpAppSecret: 9a3be7aabbd9586a1d2c9b63c8538aca
+  mchId:
+  mchKey:
+  keyPath:
+projecturl:
+  wechat-mp-authorize: http://haohaoxuexi.natapp1.cc
+  wechat-open-authorize: http://haohaoxuexi.natapp1.cc
+  sell: http://haohaoxuexi.natapp1.cc
+
+
